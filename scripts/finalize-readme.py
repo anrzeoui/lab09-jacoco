@@ -140,5 +140,5 @@ xdg-open target/site/jacoco/index.html
 
 `results/` хавтсанд A/B/D/final үе шатын бодит TXT, CSV нотолгоонууд хадгалагдсан. Commit-ууд A (happy path), B (coverage), C (loop), D (BVA), D-fix (операторын засвар) гэсэн үе шат бүрийг тус тусад нь баримтжуулна.
 '''
-(root/'lab09-jacoco/README.md').write_text(readme,encoding='utf-8')
+(root/'README.md').write_text(readme,encoding='utf-8')
 print('Generated README:', len(readme), 'chars')
